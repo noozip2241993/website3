@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="imagefolder" href="../image/gettyimages-620702528-612x612.jpg">
+    <link rel="formpage" href="../form/form.html">
+    <link rel="resultspage" href="../form/results.html">
+    <link rel="htmlpage" href="../html/index.html">
+    <link rel="htmlpage" href="../html/page2.html">
+    <link rel="htmlpage" href="../html/page3.html">
+    <pre> <h2><a href="../html/index.html">Home</a>  <a href="../html/page2.html">Rooms</a>  <a href="../html/page3.html">Price</a>  <a href="../form/form.html">Form</a></h2></pre>
+</head>
+<body>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+        <input type="hidden" name="The Hotel" value="Welcome">
+        <div>
+            <label for ="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="username" >    
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="password" > 
+       </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" >
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="1" max="200">
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <b>Favorite Food</b>
+            
+            <div>
+                <label for="banana">Banana</label>
+                <input type="checkbox" name="banana" id="banana">
+            </div>
+            <div>
+                <label for="apple">Apple</label>
+                <input type="checkbox" name="apple" id="apple">
+            </div>
+        </div>
+        <div>
+            <b>Gender</b>
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+            </div>
+            <div>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </div>
+            <div>
+                <label for="others">Others</label>
+                <input type="radio" name="gender" id="others" value="others">
+            </div>
+            <div>
+                <label for="eyeColor">Eye Color</label>
+                <select name="eyeColor" id="eyeColor" >
+                    <option value="Green">Green</option>
+                    <option value="Brown">Brown</option>
+                    <option value="Black">Black</option>
+                    <option value="Others">others</option>
+                </select>
+    
+            </div>
+            <div>
+                <label for="bio">Bio</label>
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="file" id="file" name="file">
+        </div>
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <input type="address" name="address" id="address">
+        </div>
+        <div>
+            <label for="room">Room</label>
+            <select name="room" id="room">
+                <option value="Excutive">Excutive</option>
+                <option value="Deluxe">Deluxe</option>
+                <option value="Conference">Conference</option>
+                <option value="Weddingevent">Wedding Event</option>
+            </select>
+        </div>
+        <div>
+            <label for="people">Number of People</label>
+            <input type="number" id="people" name="people" min="0" max="5">
+        </div>
+      
+       <button type="reset">Reset </button>
+       <button type="submit">
+           Submit
+       </button>
+      
+
+
+
+
+    </form>
+</body>
+</html>

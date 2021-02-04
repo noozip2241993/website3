@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Results</title>
+    <a href="/">Back to Form</a>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="imagefolder" href="../image/gettyimages-620702528-612x612.jpg">
+    <link rel="formpage" href="../form/form.html">
+    <link rel="resultspage" href="../form/results.html">
+    <pre> <h2><a href="../html/index.html">Home</a>  <a href="../html/page2.html">Rooms</a>  <a href="../html/page3.html">Price</a>  <a href="../form/form.html">Form</a></h2></pre>
+
+</head>
+<body>
+    <div id="results"></div>
+    <script>
+        const resultsList = document.getElementById('results')
+        new URLSearchParams(window.location.search).forEach((value,name))
+         {
+            resultsList.append(`${name}: ${name}`)
+            resultsList.append(document.createElement('br'))
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body {font-family: 'Calibri';}
+p {font-family: 'Calibri'; background-image: url(../image/0ZYAsI.jpg);}
+h1, h2 {font-family: "Courier New"; color:red;}
+a:link{ color: red;}
+a:visited{color:green;}
+a:hover{color: red;}
+a:active{color:green}
+ul {list-style: square;}
+ol{list-style: lower-roman;}
+tr:nth-child(even){background-color: lightgray;}
+tr:nth-child(odd){background-color: lightblue;}
+html{background:url(../image/hotelbackground.jpeg) no-repeat center fixed;
+- webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;}
